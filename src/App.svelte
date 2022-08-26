@@ -1,7 +1,6 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
-  // import Img from './assets/Background.png'
   import { Router, Link, Route } from "svelte-routing";
 
   import Login from './components/Login.svelte';
@@ -15,7 +14,7 @@
   import {navigate} from 'svelte-routing';
  import { onMount } from 'svelte';
 
- ./assets/background.png
+
 
   export let url = "";
  
