@@ -1,0 +1,41 @@
+*{
+  margin: 0 !important;
+
+}
+/* remove scroll bar */
+
+body{
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif !important;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.side1{
+  height: 100vh;
+  width: 100%;
+  background-image: url('./assets/background.png');
+  background-size: contain;
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  *{
+    font-size: 100% - 20%;
+  }
+  .nav,.navbar{
+      display: none !important;
+  }
+  .container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr !important;
+   
+}
+}
+
+a{
+  text-decoration: none;
+}
