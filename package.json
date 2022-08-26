@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "sirv public --single",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -26,6 +27,7 @@
     "svelte-preprocess": "^4.10.7",
     "svelte-progress-bar": "^3.0.2",
     "svelte-routing": "^1.6.0",
-    "svelte-select": "^4.4.7"
+    "svelte-select": "^4.4.7",
+    "svelte-spa-router": "^3.3.0"
   }
 }
