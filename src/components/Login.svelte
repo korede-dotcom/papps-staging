@@ -48,7 +48,7 @@
         console.log(data)
         if(data.token){
             localStorage.setItem('token', data.token)
-            window.location.replace("/dashboard")
+            navigate("/dashboard")
         }
        
        
