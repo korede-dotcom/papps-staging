@@ -15,8 +15,9 @@
   import {navigate} from 'svelte-routing';
  import { onMount } from 'svelte';
 
+ 
 
-  export let url = "";
+  export let url = "/";
  
 </script>
 
